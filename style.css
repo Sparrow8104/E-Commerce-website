@@ -205,6 +205,57 @@ nav a{
     border-radius: 20px;
     margin: 18px;
 }
+.weekly-inspirations{
+    margin:14px 6px 14px 6px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+ }
+.weekly-inspiration-heading{
+    font-size: 23px;
+    text-align: center;
+    justify-content: center;
+}
+.weekly-collections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: relative;
+}
+.weekly-collection-list .image img{
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    position: relative;
+}
+.weekly-collection-list .collection-button{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.weekly-collection-list .collection-button button{
+    border: none;
+    padding: 6px;
+    margin: 4px;
+    border-radius: 4px;
+    box-shadow: 2px 2px rgb(128, 96, 96);
+    color: white;
+    background: rgb(193, 193, 169);
+    font-family: 'Times New Roman', Times, serif;
+}
+.weekly-collection-list .collection-button button:hover{
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.05);
+   
+}
 .section3{
     background-color:#6CBDBD;
     padding: 20px;
