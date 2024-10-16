@@ -204,3 +204,35 @@ nav a{
     border-radius: 20px;
     margin: 18px;
 }
+.section3{
+    background-color:#6CBDBD;
+    padding: 20px;
+    margin: 14px 6px 14px 6px;
+    font-size: 18px;
+}
+.footer-heading h2{
+    font-size: 27px;
+    margin: 4px;
+    padding: 4px;
+}
+.footer-list ul{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-list ul li{
+    list-style: none;
+    margin: 4px;
+    padding: 4px;
+}
+ .about, .support,.social{
+    font-size:  20px  ;
+    display: flex;
+    flex-direction: column;
+}
+.about-heading ,.support-heading ,.social-heading{
+    margin: 6px 0px 20px;
+}
+.about a,.support a,.social a{
+    text-decoration: none;
+    color: black;
+}
