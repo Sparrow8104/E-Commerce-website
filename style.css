@@ -307,3 +307,19 @@ nav a{
         text-align: center;
         padding: 15px 0; 
     }
+}
+     @media  screen and (max-width:400px) {
+        .bestseller-heading  .button{
+            margin: 2px;
+            text-align: center;
+            width: 100%;
+        }
+        .bestseller-heading  .button a{
+            text-decoration: none;
+            padding: 8px;
+            margin: 8px;
+            color: black;
+            background-color:transparent;
+        
+        }
+    }
