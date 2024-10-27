@@ -320,28 +320,34 @@ nav a{
 }
 .section3{
     background-color:#259292;
-    padding: 20px;
+    padding: 3rem;
     margin: 14px 6px 14px 6px;
     font-size: 18px;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    flex-direction: column;
     background: linear-gradient(145deg, #259292, #1f7a7a);
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 footer{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
 }
 .footer-heading h2{
+    display: flex;
     font-size: 30px;
     margin: 0px 25px;
     padding: 4px;
 }
 .footer-list ul{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 .footer-list ul li{
